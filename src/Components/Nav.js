@@ -3,7 +3,7 @@ import { BrowserRouter as Router,Route,Link,Switch} from 'react-router-dom'
 import JobSearch from './JobSearch'
 import SearchResults from './SearchResults'
 import JobDetails from './JobDetails'
-import TestComponent from './TestComponent'
+
 const Nav = () => {
     return (
         <div>

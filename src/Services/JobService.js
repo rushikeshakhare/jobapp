@@ -1,4 +1,3 @@
-import React,{Component} from 'react';
 import networkInstance from  '../NetworkManager';
 
 const proxy = "https://cors-anywhere.herokuapp.com/"
@@ -6,6 +5,7 @@ const serviceHost = "https://jobs.github.com/"
 const searchPath = proxy+serviceHost+"positions.json?search=";
 const jobDetailsPath = proxy+serviceHost+"positions/";
 const companyLogoDefault = "https://www.designevo.com/res/templates/thumb_small/green-square-and-brown-tree.png";
+
 class JobService{
    
     fetchAllJobsByKeyword = (keyword) => {
