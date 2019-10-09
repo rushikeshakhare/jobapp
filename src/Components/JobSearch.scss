@@ -1,0 +1,64 @@
+.searchContainer
+{
+    padding:12%;
+    padding-top:0%;
+    margin:auto;
+    margin-left:10%;
+    color:white;
+    
+    text-align: center;
+    .inputBox 
+    {   
+        text-align: right;
+        input
+        {
+            width:90%;
+            padding:3%;
+            outline: none;
+            background: transparent;
+            color:white;
+            border:none;
+            
+            font-size: 25px;
+        }
+    }
+    .submitButton
+    {
+        text-align: left;
+        button
+        {
+            padding:3%;
+            background:transparent;
+            color:white;
+            border:.5px solid grey;
+            outline: none;
+            width:40%;
+            font-size: 25px;
+            cursor: pointer;
+            transition-duration: 150ms;
+        }
+        :hover
+        {
+            background: black;
+            color:white;
+            transform: scale(1.01);
+        }
+    }
+}
+
+.flex
+{
+    display: flex;
+}
+.flex-1
+{
+    flex:1;
+}
+.titleContainer
+{
+    color:white;
+    margin-left:10%;
+    margin-top:17%;
+    text-align: left;
+    padding-left:14%;
+}
